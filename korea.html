@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Корейська війна</title>
 </head>
 <body>
-    <a href="index.html">На головну</a>
-    <h1>Корейська війна</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fBeiD6kGugE?si=nnl8OIWpJtLABN4n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="menu">
+        <ol class="menulist">
+            <li class="menulist"><a href="index.html">Головна</a></li>
+            <li class="menulist"><b>Корейська війна</b></li>
+            <li class="menulist"><a href="vietnam.html">В'єтнамська війна</a></li>
+            <li class="menulist"><a href="angola.html">Громадянська війна в Анголі</a></li>
+            <li class="menulist"><a href="afghan.html">Афганська війна</a></li>
+            <li class="menulist"><a href="iraniraq.html">Ірано-іракська війна</a></li>
+        </ol>
+    </div>
+    <div class="main">
+        <h1>Корейська війна</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fBeiD6kGugE?si=nnl8OIWpJtLABN4n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="comment">
+        <h3>Залишити коментар</h3>
+        <form>
+            <label for="name">Ім'я:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="comment">Коментар:</label><br>
+            <textarea rows="10" cols="100" id="comment" name="comment"></textarea><br><br>
+            <input type="submit" value="Відправити">
+        </form>
+    </div>
 </body>
 </html>

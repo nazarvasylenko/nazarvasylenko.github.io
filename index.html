@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Головна</title>
 </head>
 <body>
+    <div class="menu">
+        <ol class="menulist">
+            <li class="menulist"><b>Головна</b></li>
+            <li class="menulist"><a href="korea.html">Корейська війна</a></li>
+            <li class="menulist"><a href="vietnam.html">В'єтнамська війна</a></li>
+            <li class="menulist"><a href="angola.html">Громадянська війна в Анголі</a></li>
+            <li class="menulist"><a href="afghan.html">Афганська війна</a></li>
+            <li class="menulist"><a href="iraniraq.html">Ірано-іракська війна</a></li>
+        </ol>
+    </div>
     <div class="main">
         <h1>Збройні конфлікти Холодної війни</h1>
         <img width="80%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cold_War_alliances_mid-1975.svg/1280px-Cold_War_alliances_mid-1975.svg.png">
         <p>Період <b>Холодної війни</b> характеризується численними локальними збройними конфліктами.
     Основними причинами цих конфліктів були: </p>
         </p>
-        <ol>
+        <ol style="display: inline-block;">
             <li>Ідеологічні протиріччя. Найпоширеніша причина, битва <i>капіталізму</i> проти <i>соціалізму</i>.</li>
             <li>Територіальні претензії. Класична причина, яка нікуди не подівалась у цей період.</li>
         </ol>
         <p>Найголовнішими збройними кофліктами цього періоду є:</p>
-        <table border="1">
+        <table border="1" align="center">
             <tr>
                 <th>Конфлікт</th>
                 <th>Період</th>
                 <th>Головні учасники</th>
             </tr>
             <tr>
-                <td><a href="korea.html">Корейська війна</a></td>
+                <td>Корейська війна</td>
                 <td>1950-1953</td>
                 <td>Північна Корея, Південна Корея, США, Китай</td>
             </tr>
@@ -54,9 +65,9 @@
         <h3>Залишити коментар</h3>
         <form>
             <label for="name">Ім'я:</label><br>
-            <input type="text" id="name" name="name"><br>
+            <input type="text" id="name" name="name"><br><br>
             <label for="comment">Коментар:</label><br>
-            <textarea rows="10" cols="30" id="comment" name="comment"></textarea><br>
+            <textarea rows="10" cols="100" id="comment" name="comment"></textarea><br><br>
             <input type="submit" value="Відправити">
         </form>
     </div>

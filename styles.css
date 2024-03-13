@@ -1,0 +1,41 @@
+.menu {
+    text-align: center;
+    padding: 5px;
+    background-color: pink;
+    border-style: double;
+}
+
+.menulist {
+    display:inline-block;
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li.menulist:hover {
+    background-color: red;
+}
+
+li.menulist:active {
+    background-color: green;
+}
+
+.main {
+    padding: 5px;
+    background-color: powderblue;
+    text-align: center;
+    border-style: double;
+    line-height: 2;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: large;
+}
+
+.comment {
+    padding: 5px;
+    background-color: lightskyblue;
+    border-style: double;
+}
+
+a:visited {
+    color: blue;
+}
