@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: pink;
+    border-style: double;
+
+}
+
+.menulist {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (min-width: 985px) {
+    .menulist {
+        display:inline-block;
+    }
+}
+
+.main {
+    background-color: #094605;
+    text-align: center;
+    border-style: double;
+    line-height: 2;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: large;
+}
+
+img {
+    max-width: 75%;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 5px;
+}
+
+ol {
+    margin-left: auto;
+}
